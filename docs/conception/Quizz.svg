@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="540" height="371" viewBox="0 0 540 371" xmlns="http://www.w3.org/2000/svg">
+<rect id="frame" x="0" y="0" width="540" height="371" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association valide -->
+<g>
+	<line x1="481" y1="110" x2="370" y2="34" stroke="#e08214" stroke-width="2"/>
+	<text x="409" y="90.27" fill="#542788" font-family="Verdana" font-size="12">0,1</text>
+	<line x1="258" y1="110" x2="370" y2="34" stroke="#e08214" stroke-width="2"/>
+	<text x="311" y="89.24" fill="#542788" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M382 9 a14 14 90 0 1 14 14 V34 h-52 V23 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M396 34 v11 a14 14 90 0 1 -14 14 H358 a14 14 90 0 1 -14 -14 V34 H52" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="344" y="9" width="52" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="344" y1="34" x2="396" y2="34" stroke="#e08214" stroke-width="1"/>
+		<text x="352" y="26.75" fill="#000" font-family="Verdana" font-size="12">valide</text>
+	</g>
+</g>
+
+<!-- Association défini -->
+<g>
+	<line x1="55" y1="110" x2="154" y2="110" stroke="#e08214" stroke-width="2"/>
+	<text x="102" y="127" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="258" y1="110" x2="154" y2="110" stroke="#e08214" stroke-width="2"/>
+	<text x="184" y="127" fill="#542788" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M164 85 a14 14 90 0 1 14 14 V110 h-48 V99 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M178 110 v11 a14 14 90 0 1 -14 14 H144 a14 14 90 0 1 -14 -14 V110 H48" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="130" y="85" width="48" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="130" y1="110" x2="178" y2="110" stroke="#e08214" stroke-width="1"/>
+		<text x="137" y="102.75" fill="#000" font-family="Verdana" font-size="12">défini</text>
+	</g>
+</g>
+
+<!-- Association possède -->
+<g>
+	<line x1="258" y1="110" x2="370" y2="110" stroke="#e08214" stroke-width="2"/>
+	<text x="311" y="127" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="481" y1="110" x2="370" y2="110" stroke="#e08214" stroke-width="2"/>
+	<text x="409" y="127" fill="#542788" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M388 85 a14 14 90 0 1 14 14 V110 h-64 V99 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M402 110 v11 a14 14 90 0 1 -14 14 H352 a14 14 90 0 1 -14 -14 V110 H64" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="338" y="85" width="64" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="338" y1="110" x2="402" y2="110" stroke="#e08214" stroke-width="1"/>
+		<text x="345" y="102.75" fill="#000" font-family="Verdana" font-size="12">possède</text>
+	</g>
+</g>
+
+<!-- Association compose -->
+<g>
+	<line x1="258" y1="303" x2="258" y2="211" stroke="#e08214" stroke-width="2"/>
+	<text x="263" y="253" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="258" y1="110" x2="258" y2="211" stroke="#e08214" stroke-width="2"/>
+	<text x="263" y="178" fill="#542788" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M278 186 a14 14 90 0 1 14 14 V211 h-68 V200 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M292 211 v11 a14 14 90 0 1 -14 14 H238 a14 14 90 0 1 -14 -14 V211 H68" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="224" y="186" width="68" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="224" y1="211" x2="292" y2="211" stroke="#e08214" stroke-width="1"/>
+		<text x="231" y="203.75" fill="#000" font-family="Verdana" font-size="12">compose</text>
+	</g>
+</g>
+
+<!-- Association créé -->
+<g>
+	<line x1="55" y1="303" x2="154" y2="303" stroke="#e08214" stroke-width="2"/>
+	<text x="106" y="320" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="258" y1="303" x2="154" y2="303" stroke="#e08214" stroke-width="2"/>
+	<text x="193" y="320" fill="#542788" font-family="Verdana" font-size="12">1,1</text>
+	<g>
+		<path d="M161 278 a14 14 90 0 1 14 14 V303 h-42 V292 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M175 303 v11 a14 14 90 0 1 -14 14 H147 a14 14 90 0 1 -14 -14 V303 H42" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="133" y="278" width="42" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="133" y1="303" x2="175" y2="303" stroke="#e08214" stroke-width="1"/>
+		<text x="141" y="295.75" fill="#000" font-family="Verdana" font-size="12">créé</text>
+	</g>
+</g>
+
+<!-- Association detient -->
+<g>
+	<line x1="481" y1="303" x2="370" y2="303" stroke="#e08214" stroke-width="2"/>
+	<text x="404" y="320" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<line x1="258" y1="303" x2="370" y2="303" stroke="#e08214" stroke-width="2"/>
+	<text x="302" y="320" fill="#542788" font-family="Verdana" font-size="12">0,N</text>
+	<g>
+		<path d="M385 278 a14 14 90 0 1 14 14 V303 h-58 V292 a14 14 90 0 1 14 -14" fill="#fdb863" stroke="#fdb863" stroke-width="0"/>
+		<path d="M399 303 v11 a14 14 90 0 1 -14 14 H355 a14 14 90 0 1 -14 -14 V303 H58" fill="#fee0b6" stroke="#fee0b6" stroke-width="0"/>
+		<rect x="341" y="278" width="58" height="50" fill="none" rx="14" stroke="#e08214" stroke-width="2"/>
+		<line x1="341" y1="303" x2="399" y2="303" stroke="#e08214" stroke-width="1"/>
+		<text x="349" y="295.75" fill="#000" font-family="Verdana" font-size="12">detient</text>
+	</g>
+</g>
+
+<!-- Entity niveau -->
+<g>
+	<g>
+		<rect x="13" y="76" width="84" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="13" y="101" width="84" height="43" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="13" y="76" width="84" height="68" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="13" y1="101" x2="97" y2="101" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="35" y="93.75" fill="#000" font-family="Verdana" font-size="12">niveau</text>
+	<text x="18" y="118.8" fill="#000" font-family="Verdana" font-size="12">code niveau</text>
+	<line x1="18" y1="121" x2="91" y2="121" stroke="#000" stroke-width="1"/>
+	<text x="18" y="135.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+</g>
+
+<!-- Entity question -->
+<g>
+	<g>
+		<rect x="210" y="59" width="96" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="210" y="84" width="96" height="77" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="210" y="59" width="96" height="102" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="210" y1="84" x2="306" y2="84" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="232" y="76.75" fill="#000" font-family="Verdana" font-size="12">question</text>
+	<text x="215" y="101.8" fill="#000" font-family="Verdana" font-size="12">code question</text>
+	<line x1="215" y1="104" x2="300" y2="104" stroke="#000" stroke-width="1"/>
+	<text x="215" y="118.8" fill="#000" font-family="Verdana" font-size="12">question</text>
+	<text x="215" y="135.8" fill="#000" font-family="Verdana" font-size="12">anecdote</text>
+	<text x="215" y="152.8" fill="#000" font-family="Verdana" font-size="12">wiki</text>
+</g>
+
+<!-- Entity reponse -->
+<g>
+	<g>
+		<rect x="435" y="76" width="92" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="435" y="101" width="92" height="43" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="435" y="76" width="92" height="68" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="435" y1="101" x2="527" y2="101" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="457" y="93.75" fill="#000" font-family="Verdana" font-size="12">reponse</text>
+	<text x="440" y="118.8" fill="#000" font-family="Verdana" font-size="12">code reponse</text>
+	<line x1="440" y1="121" x2="521" y2="121" stroke="#000" stroke-width="1"/>
+	<text x="440" y="135.8" fill="#000" font-family="Verdana" font-size="12">description</text>
+</g>
+
+<!-- Entity user -->
+<g>
+	<g>
+		<rect x="9" y="244" width="92" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="9" y="269" width="92" height="93" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="9" y="244" width="92" height="118" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="9" y1="269" x2="101" y2="269" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="42" y="261.75" fill="#000" font-family="Verdana" font-size="12">user</text>
+	<text x="14" y="286.8" fill="#000" font-family="Verdana" font-size="12">code user</text>
+	<line x1="14" y1="289" x2="73" y2="289" stroke="#000" stroke-width="1"/>
+	<text x="14" y="303.8" fill="#000" font-family="Verdana" font-size="12">prénom</text>
+	<text x="14" y="320.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+	<text x="14" y="337.8" fill="#000" font-family="Verdana" font-size="12">email</text>
+	<text x="14" y="354.8" fill="#000" font-family="Verdana" font-size="12">mot de passe</text>
+</g>
+
+<!-- Entity quizz -->
+<g>
+	<g>
+		<rect x="219" y="261" width="78" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="219" y="286" width="78" height="59" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="219" y="261" width="78" height="84" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="219" y1="286" x2="297" y2="286" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="242" y="278.75" fill="#000" font-family="Verdana" font-size="12">quizz</text>
+	<text x="224" y="303.8" fill="#000" font-family="Verdana" font-size="12">code quizz</text>
+	<line x1="224" y1="306" x2="288" y2="306" stroke="#000" stroke-width="1"/>
+	<text x="224" y="320.8" fill="#000" font-family="Verdana" font-size="12">titre</text>
+	<text x="224" y="337.8" fill="#000" font-family="Verdana" font-size="12">description</text>
+</g>
+
+<!-- Entity catégorie -->
+<g>
+	<g>
+		<rect x="431" y="269" width="100" height="25" fill="#b2abd2" stroke="#b2abd2" stroke-width="0" opacity="1"/>
+		<rect x="431" y="294" width="100" height="43" fill="#d8daeb" stroke="#d8daeb" stroke-width="0" opacity="1"/>
+		<rect x="431" y="269" width="100" height="68" fill="none" stroke="#8073ac" stroke-width="2" opacity="1"/>
+		<line x1="431" y1="294" x2="531" y2="294" stroke="#8073ac" stroke-width="1"/>
+	</g>
+	<text x="453" y="286.75" fill="#000" font-family="Verdana" font-size="12">catégorie</text>
+	<text x="436" y="311.8" fill="#000" font-family="Verdana" font-size="12">code catégorie</text>
+	<line x1="436" y1="314" x2="525" y2="314" stroke="#000" stroke-width="1"/>
+	<text x="436" y="328.8" fill="#000" font-family="Verdana" font-size="12">nom</text>
+</g>
+</svg>

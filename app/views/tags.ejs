@@ -1,0 +1,26 @@
+<!--  Include headers here -->
+<%- include('partials/head') %>
+
+<h1>Thèmes</h1>
+
+<div>
+    <% if (locals.tags && locals.tags.length) { %>
+        <% for( let i = 0; i < tags.length; i++ ) { %>
+            <span class="badge bg-primary p-2 mb-1"><%= tags[i].name %></span>
+            <ul>
+            <% if (tags[i].quizzes.length) { %>
+                <% for( let j = 0; j < tags[i].quizzes.length; j++ ) { %>
+                    <li><a href="/quiz/<%= tags[i].quizzes[j].id %>"><%= tags[i].quizzes[j].title %></a></li>
+                <% } %>
+            <% } else { %>
+                <li class="ms-2">Aucun quizz dans cette catégorie pour le moment....</li>
+            <% } %>
+        </ul>
+        <% } %>
+    <% } else { %>
+        <p class="ms-2">Nous n'avons rien à afficher</p>
+    <% }  %>
+
+</div>
+
+<%- include('partials/footer') %>

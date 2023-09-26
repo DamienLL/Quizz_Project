@@ -1,0 +1,111 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+  #mld strong { font-weight: bold }
+  #mld i { font-style: italic }
+  #mld ul { list-style-type:square; margin: 0 0 1em 2em }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <details><summary><span class='relation'>catégorie</span> (
+    <span title='primary_key (None)' class='primary'>code catégorie</span>,
+    <span title='normal_attribute (None)' class='normal'>nom</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code catégorie</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>catégorie</i>.</li>
+    <li>Le champ <i>nom</i> était déjà un simple attribut de l'entité <i>catégorie</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>detient</span> (
+    <span title='primary_foreign_key (catégorie)' class='foreign primary'>#code catégorie</span>,
+    <span title='primary_foreign_key (quizz)' class='foreign primary'>#code quizz</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code catégorie</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>catégorie</i>.</li>
+    <li>Le champ <i>code quizz</i> fait partie de la clé primaire de la table. C'est une clé étrangère qui a migré directement à partir de l'entité <i>quizz</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>niveau</span> (
+    <span title='primary_key (None)' class='primary'>code niveau</span>,
+    <span title='normal_attribute (None)' class='normal'>nom</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code niveau</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>niveau</i>.</li>
+    <li>Le champ <i>nom</i> était déjà un simple attribut de l'entité <i>niveau</i>.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>question</span> (
+    <span title='primary_key (None)' class='primary'>code question</span>,
+    <span title='normal_attribute (None)' class='normal'>question</span>,
+    <span title='normal_attribute (None)' class='normal'>anecdote</span>,
+    <span title='normal_attribute (None)' class='normal'>wiki</span>,
+    <span title='foreign_key (reponse)' class='foreign'>#code reponse</span>,
+    <span title='foreign_key (niveau)' class='foreign'>#code niveau</span>,
+    <span title='foreign_key (quizz)' class='foreign'>#code quizz</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code question</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>question</i>.</li>
+    <li>Les champs <i>question</i>, <i>anecdote</i> et <i>wiki</i> étaient déjà de simples attributs de l'entité <i>question</i>.</li>
+    <li>Le champ <i>code reponse</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>valide</i> à partir de l'entité <i>reponse</i> en perdant son caractère identifiant.</li>
+    <li>Le champ <i>code niveau</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>défini</i> à partir de l'entité <i>niveau</i> en perdant son caractère identifiant.</li>
+    <li>Le champ <i>code quizz</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>compose</i> à partir de l'entité <i>quizz</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>quizz</span> (
+    <span title='primary_key (None)' class='primary'>code quizz</span>,
+    <span title='normal_attribute (None)' class='normal'>titre</span>,
+    <span title='normal_attribute (None)' class='normal'>description</span>,
+    <span title='foreign_key (user)' class='foreign'>#code user</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code quizz</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>quizz</i>.</li>
+    <li>Les champs <i>titre</i> et <i>description</i> étaient déjà de simples attributs de l'entité <i>quizz</i>.</li>
+    <li>Le champ <i>code user</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>créé</i> à partir de l'entité <i>user</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>reponse</span> (
+    <span title='primary_key (None)' class='primary'>code reponse</span>,
+    <span title='normal_attribute (None)' class='normal'>description</span>,
+    <span title='foreign_key (question)' class='foreign'>#code question</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code reponse</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>reponse</i>.</li>
+    <li>Le champ <i>description</i> était déjà un simple attribut de l'entité <i>reponse</i>.</li>
+    <li>Le champ <i>code question</i> est une clé étrangère. Il a migré par l'association de dépendance fonctionnelle <i>possède</i> à partir de l'entité <i>question</i> en perdant son caractère identifiant.</li>
+  </ul></details>
+</div>
+
+<div>
+  <details><summary><span class='relation'>user</span> (
+    <span title='primary_key (None)' class='primary'>code user</span>,
+    <span title='normal_attribute (None)' class='normal'>prénom</span>,
+    <span title='normal_attribute (None)' class='normal'>nom</span>,
+    <span title='normal_attribute (None)' class='normal'>email</span>,
+    <span title='normal_attribute (None)' class='normal'>mot de passe</span>
+  )</summary>
+  <ul>
+    <li>Le champ <i>code user</i> constitue la clé primaire de la table. C'était déjà un identifiant de l'entité <i>user</i>.</li>
+    <li>Les champs <i>prénom</i>, <i>nom</i>, <i>email</i> et <i>mot de passe</i> étaient déjà de simples attributs de l'entité <i>user</i>.</li>
+  </ul></details>
+</div>
+
+</div>
+</body>
+</html>

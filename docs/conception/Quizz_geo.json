@@ -1,0 +1,47 @@
+{
+  "width": 540,
+  "height": 371,
+  "cx": [
+    [ "valide", 370 ],
+    [ "niveau", 55 ],
+    [ "défini", 154 ],
+    [ "question", 258 ],
+    [ "possède", 370 ],
+    [ "reponse", 481 ],
+    [ "compose", 258 ],
+    [ "user", 55 ],
+    [ "créé", 154 ],
+    [ "quizz", 258 ],
+    [ "detient", 370 ],
+    [ "catégorie", 481 ]
+  ],
+  "cy": [
+    [ "valide", 34 ],
+    [ "niveau", 110 ],
+    [ "défini", 110 ],
+    [ "question", 110 ],
+    [ "possède", 110 ],
+    [ "reponse", 110 ],
+    [ "compose", 211 ],
+    [ "user", 303 ],
+    [ "créé", 303 ],
+    [ "quizz", 303 ],
+    [ "detient", 303 ],
+    [ "catégorie", 303 ]
+  ],
+  "shift": [
+    [ "valide,reponse,0", 0 ],
+    [ "valide,question,0", 0 ],
+    [ "défini,niveau,0", 0 ],
+    [ "défini,question,0", 0 ],
+    [ "possède,question,0", 0 ],
+    [ "possède,reponse,0", 0 ],
+    [ "compose,quizz,0", 0 ],
+    [ "compose,question,0", 0 ],
+    [ "créé,user,0", 0 ],
+    [ "créé,quizz,0", 0 ],
+    [ "detient,catégorie,0", 0 ],
+    [ "detient,quizz,0", 0 ]
+  ],
+  "ratio": []
+}

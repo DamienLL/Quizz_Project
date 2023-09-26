@@ -1,0 +1,18 @@
+- code catégorie
+- nom
+- code niveau
+- nom
+- code question
+- question
+- anecdote
+- wiki
+- code quizz
+- titre
+- description
+- code reponse
+- description
+- code user
+- prénom
+- nom
+- email
+- mot de passe

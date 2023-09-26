@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.notification {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}

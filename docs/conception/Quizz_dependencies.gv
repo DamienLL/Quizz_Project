@@ -1,0 +1,8 @@
+digraph {
+  node [shape=box]
+  "catégorie" -> "detient"
+  "quizz" -> "detient"
+  "reponse" -> "question"
+  "user" -> "quizz"
+  "question" -> "reponse"
+}

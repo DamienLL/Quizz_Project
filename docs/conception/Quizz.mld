@@ -1,0 +1,20 @@
+
+:
+niveau: code niveau, nom
+:
+question: code question, question, anecdote, wiki, #code reponse->reponse->code reponse, #code niveau->niveau->code niveau, #code quizz->quizz->code quizz
+:::
+reponse: code reponse, description, #code question->question->code question
+:
+
+
+
+:
+user: code user, prénom, nom, email, mot de passe
+:
+quizz: code quizz, titre, description, #code user->user->code user
+:
+detient: #code catégorie->catégorie->code catégorie, _#code quizz->quizz->code quizz
+:
+catégorie: code catégorie, nom
+:
